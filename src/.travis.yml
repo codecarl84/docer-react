@@ -3,8 +3,8 @@ services:
   - dockcer
 
   before_install:
-   - docker build -t codecarl84/docer-react -f Dockerfile.dev . 
+   - docker build -t codecarl84/docker-react -f Dockerfile.dev . 
 
 
 script:
-  - docker run  codecarl84/docer-react npm run test -- --coverage
+  - docker run  codecarl84/docker-react npm run test -- --coverage
