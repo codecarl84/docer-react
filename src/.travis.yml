@@ -1,6 +1,6 @@
 sudo: required 
 services: 
-  - dockcer
+  - docker
 
   before_install:
    - docker build -t codecarl84/docker-react -f Dockerfile.dev . 
