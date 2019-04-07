@@ -4,7 +4,7 @@ services:
 
  language: node_js  
 
-  before_install:
+ before_install:
    - docker build -t codecarl84/docker-react -f Dockerfile.dev . 
 
 
