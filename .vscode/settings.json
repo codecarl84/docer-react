@@ -1,0 +1,7 @@
+{
+    "editor.autoIndent": false,
+    "editor.wrappingIndent": "none",
+    "editor.renderIndentGuides": false,
+    "editor.detectIndentation": false,
+    "javascript.format.enable": false,
+}
