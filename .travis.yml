@@ -1,14 +1,14 @@
 sudo: required 
+
 services: 
   - docker
 
-language: generic  
+language: bash  
 
 
 
- before_install:
+before_install:
    - docker build -t codecarl84/docker-react -f Dockerfile.dev . 
-
 
 script:
   - docker run codecarl84/docker-react npm run test -- --coverage
